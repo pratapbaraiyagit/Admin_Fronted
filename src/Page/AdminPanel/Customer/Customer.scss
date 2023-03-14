@@ -1,0 +1,99 @@
+.active {
+    border: 2px solid rgba(119, 119, 119, 0.5) !important;
+    border-bottom: none !important;
+    outline: 2px solid #fff !important;
+    border-radius: 2px !important;
+    h6 {
+      color: black;
+    }
+  }
+  .not-active {
+    h6 {
+      color: rgb(231, 66, 22);
+    }
+  }
+  .active_Servicesbtn {
+    background: #fcb800;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    border: 0px solid;
+  }
+  .Servicesbtn {
+    background: #383737;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .clicable {
+    color: #d6663e;
+    font-weight: 700;
+  }
+  .active {
+    border: 2px solid rgba(119, 119, 119, 0.5) !important;
+    border-bottom: none !important;
+    outline: 2px solid #fff !important;
+    border-radius: 2px !important;
+    cursor: pointer;
+    h6 {
+      color: black;
+    }
+  }
+  .not-active {
+    h6 {
+      color: rgb(231, 66, 22);
+    }
+    cursor: pointer;
+  }
+  .title {
+    font-weight: 600;
+    width: 40%;
+  }
+  .dataContainer {
+    display:flex; 
+    flex-direction:row;
+    // justify-content:space-between;
+    // border-bottom:1px solid black;
+    align-items:center;
+    // height:50px
+    padding: 10px;
+  }
+  .tbl-responsive{
+    overflow-x: auto;
+  }
+  tbody {
+    border: 12px solid #fff4f0;
+  }
+  tbody tr {
+    border: 12px solid #fff4f0;
+  }
+  thead tr {
+    border: 12px solid #fff;
+    border-bottom: 12px solid #fff4f0;
+  }
+  .Edit,
+  .Remove {
+    font-size: 24px;
+  }
+  .Edit {
+    color: #e74216;
+  }
+  tr th,
+  tr td {
+    border: none;
+  }
+  .enable {
+    color: green;
+  }
+  .disable {
+    color: #e74216;
+  }
+  

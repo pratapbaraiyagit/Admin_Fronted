@@ -1,0 +1,130 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+p,
+span,
+body {
+  font-family: "Poppins", sans-serif;
+}
+.faq {
+  width: 100%;
+  padding-bottom: 80px;
+
+  &__title {
+    margin: 0;
+    padding-bottom: 25px;
+  }
+
+  &__question {
+    width: 100%;
+  }
+  .font-weight-bold {
+    background: var(--main-color);
+  }
+  &__question-button {
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    transition: 0.7s ease-in-out;
+    padding: 0px;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    &::after {
+      content: url(.././src/Assets/PLUS.svg);
+      margin-right: 17px;
+      transform: rotate(90deg);
+    }
+
+    &:hover {
+      background: var(--main-color);
+    }
+  }
+
+  &__desc {
+    padding-right: 17px;
+    margin: 0%;
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: 0.7s ease-in-out;
+  }
+}
+// #faq1_desc,
+.show-description {
+  height: 100%;
+  opacity: 1;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 18px 16px;
+}
+label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6e6e6e;
+}
+.slick-prev {
+  background: var(--main-color) !important;
+  left: 0px !important;
+}
+.slick-next {
+  background: var(--main-color) !important;
+  right: 0px !important;
+}
+.slick-dots {
+  left: 0 !important;
+}
+.error {
+  color: red;
+}
+#root {
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 992px) {
+  h4,
+  h5,
+  h6 {
+    font-size: 14px !important;
+  }
+}
+
+
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+  position: relative;
+}
+
+input:checked {
+  border: 6px solid #fab700;
+}
+.selectBox {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,92 @@
+.active {
+    border: 2px solid hsla(0, 0%, 47%, 0.5) !important;
+    border-bottom: none !important;
+    outline: 2px solid #fff !important;
+    border-radius: 2px !important;
+    h6 {
+      color: black;
+    }
+  }
+  .not-active {
+    h6 {
+      color: rgb(231, 66, 22);
+    }
+  }
+  .active_Servicesbtn {
+    background: #fcb800;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    border-color: #fcb800
+  }
+  .Servicesbtn {
+    background: #383737;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .error {
+    color: rgb(220, 53, 69);
+    padding: 6px 4px;
+  }
+  .heading {
+    border-bottom: 2px solid  hsla(0, 0%, 47%, 0.5);
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  .mappContainer{
+    height:60vh;
+    width:100%;
+    border:1px solid  hsla(0, 0%, 47%, 0.5);
+    overflow: scroll;
+    margin-top: 10px;
+  }
+  .subCategory {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+  tbody {
+    border: 12px solid #fff4f0;
+  }
+  tbody tr {
+    border: 12px solid #fff4f0;
+  }
+  thead tr {
+    border: 12px solid #fff;
+    border-bottom: 12px solid #fff4f0;
+  }
+  .Edit,
+  .Remove {
+    font-size: 24px;
+  }
+  .Edit {
+    color: #e74216;
+  }
+  tr th,
+  tr td {
+    border: none;
+  }
+  .enable {
+    color: green;
+    vertical-align: middle!important;
+  }
+  .disable {
+    color: #e74216;
+    vertical-align: middle!important;
+  }
+  .tbl-responsive{
+    overflow-x: auto;
+  }
