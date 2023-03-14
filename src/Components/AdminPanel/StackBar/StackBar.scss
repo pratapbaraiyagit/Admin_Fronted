@@ -1,0 +1,21 @@
+.filterOptions{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lbl{
+    font-weight: bold;
+}
+.input{
+    width: 30%;
+    height:35px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+  }
+.error {
+    color: red;
+    width: 100%;
+    display: flex;
+}

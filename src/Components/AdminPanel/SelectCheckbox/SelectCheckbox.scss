@@ -1,0 +1,17 @@
+.select {
+    width:200px;
+    border: 1px solid #808080;
+}
+.inpt {
+    height: 15px !important;
+    width: 15px !important;
+}
+.lblCheck{
+    padding: 0px;
+    padding-left: 10px;
+}
+.checkList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+tbody {
+  border: 12px solid #fff4f0;
+}
+tbody tr {
+  border: 12px solid #fff4f0;
+}
+thead tr {
+  border: 12px solid #fff;
+  border-bottom: 12px solid #fff4f0;
+}
+.Edit,
+.Remove {
+  font-size: 24px;
+}
+.Edit {
+  color: #e74216;
+}
+tr th,
+tr td {
+  border: none;
+}
+.enable {
+  color: green;
+}
+.disable {
+  color: #e74216;
+}

@@ -1,0 +1,28 @@
+.input{
+    width: 30%;
+    height:35px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+  }
+  .error {
+      color: red;
+      width: 100%;
+      display: flex;
+  }
+  .filterOptions{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.listContainer {
+  width:200px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #808080;
+  padding: 5px;
+  border-radius: 5px;
+  height: 80px;
+}
